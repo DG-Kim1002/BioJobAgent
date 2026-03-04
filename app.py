@@ -11,24 +11,9 @@ load_dotenv()
 # Import our custom modules
 from scraper import run_full_scraping
 from gemini import analyze_job_postings_batch
-
-# Constants
-JOBS_FILE = "jobs.json"
+from github_db import load_jobs_from_github as load_jobs, save_jobs_to_github as save_jobs
 
 st.set_page_config(page_title="BioJob Agent", page_icon="🧬", layout="wide")
-
-def load_jobs():
-    if os.path.exists(JOBS_FILE):
-        try:
-            with open(JOBS_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return []
-    return []
-
-def save_jobs(jobs_list):
-    with open(JOBS_FILE, "w", encoding="utf-8") as f:
-        json.dump(jobs_list, f, ensure_ascii=False, indent=2)
 
 def calculate_dday_cell(deadline_str):
     if deadline_str == "상시 채용" or not str(deadline_str).strip():
