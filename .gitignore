@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+
+# Streamlit config (optional)
+.streamlit/secrets.toml
+
+# Local Jobs database (We want a fresh DB in the remote)
+jobs.json
+jobs.json.bak
+
+# VSCode/Editor
+.vscode/
+.vscode/*
+.idea/
+*.swp
+*.swo
+
+# OS Data
+.DS_Store
+Thumbs.db
