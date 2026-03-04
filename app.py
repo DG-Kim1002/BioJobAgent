@@ -64,13 +64,33 @@ def main():
         st.session_state.jobs = load_jobs()
 
     # Make sure every job has a status and migrate legacy
+    changes_made_startup = False
+    today = date.today()
     for job in st.session_state.jobs:
         if job.get("status") == "tracking":
             job["status"] = "Tracking"
+            changes_made_startup = True
         elif job.get("status") == "trash":
             job["status"] = "Trash"
+            changes_made_startup = True
         elif "status" not in job or job.get("status") not in ["Tracking", "Trash", "분류 대기 중"]:
             job["status"] = "분류 대기 중"
+            changes_made_startup = True
+            
+        # Auto-Trash logic for D-day elapsed jobs
+        if job.get("status") in ("Tracking", "분류 대기 중"):
+            deadline_str = job.get("period", "")
+            if deadline_str != "상시 채용" and str(deadline_str).strip():
+                try:
+                    d = datetime.strptime(str(deadline_str), "%Y-%m-%d").date()
+                    if (d - today).days < 0:
+                        job["status"] = "Trash"
+                        changes_made_startup = True
+                except:
+                    pass
+
+    if changes_made_startup:
+        save_jobs(st.session_state.jobs)
 
     # Sort active jobs: 1. Tracking first, 2. Deadline short->long
     active_jobs = [j for j in st.session_state.jobs if j.get("status") in ("Tracking", "분류 대기 중")]
