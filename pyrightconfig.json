@@ -1,0 +1,9 @@
+{
+  "venvPath": "${workspaceFolder}",
+  "venv": "venv",
+  "executionEnvironments": [
+    {
+      "root": "."
+    }
+  ]
+}

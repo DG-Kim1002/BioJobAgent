@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import os
 from datetime import datetime, date
+import time
 from dotenv import load_dotenv
 
 # Load env variables (GEMINI_API_KEY)
@@ -94,29 +95,35 @@ def main():
             with st.spinner("Scraping Saramin, JobKorea, and Catch..."):
                 raw_scraping_results = run_full_scraping()
             
-            st.info(f"Scraped {len(raw_scraping_results)} raw postings. Passing to Gemini for analysis...")
+            # 1. API에 보내기 전, 이미 Tracking/Trash에 있는 공고(중복) 필터링
+            existing_links = {j.get("link"): True for j in st.session_state.jobs}
+            new_scraping_results = [r for r in raw_scraping_results if r.get("link") not in existing_links]
             
-            with st.spinner("LLM Filtering & Information Extraction in progress..."):
-                batch_size = 10
-                new_jobs = []
-                for i in range(0, len(raw_scraping_results), batch_size):
-                    batch = raw_scraping_results[i:i+batch_size]
-                    processed_batch = analyze_job_postings_batch(batch)
-                    new_jobs.extend(processed_batch)
-                    
-            if new_jobs:
-                existing_links = {j.get("link"): True for j in st.session_state.jobs}
-                filtered_new_jobs = [j for j in new_jobs if j.get("link") not in existing_links]
+            if not new_scraping_results:
+                st.warning("All scraped jobs are already in your list. No new jobs to analyze.")
+            else:
+                st.info(f"Scraped {len(raw_scraping_results)} total postings. Found {len(new_scraping_results)} new ones. Passing to Gemini for analysis...")
                 
-                if filtered_new_jobs:
-                    st.success(f"Added {len(filtered_new_jobs)} new relevant jobs!")
-                    st.session_state.jobs = filtered_new_jobs + st.session_state.jobs
+                with st.spinner("LLM Filtering & Information Extraction in progress..."):
+                    batch_size = 10
+                    new_jobs = []
+                    for i in range(0, len(new_scraping_results), batch_size):
+                        batch = new_scraping_results[i:i+batch_size]
+                        processed_batch = analyze_job_postings_batch(batch)
+                        new_jobs.extend(processed_batch)
+                        
+                        # API 호출량 제한(RPM) 방지를 위한 대기 시간 (무료 버전은 분당 15회 제한)
+                        if i + batch_size < len(new_scraping_results):
+                            time.sleep(4)
+                            
+                if new_jobs:
+                    # new_jobs에는 이미 중복이 제거된 데이터만 들어옴
+                    st.success(f"Added {len(new_jobs)} new relevant jobs!")
+                    st.session_state.jobs = new_jobs + st.session_state.jobs
                     save_jobs(st.session_state.jobs)
                     st.rerun()
                 else:
-                    st.warning("All scraped jobs were duplicates.")
-            else:
-                st.warning("No new relevant jobs found.")
+                    st.warning("No new relevant jobs found after AI filtering.")
                 
         st.divider()
         st.write(f"Active Jobs: **{len(active_jobs)}**")
