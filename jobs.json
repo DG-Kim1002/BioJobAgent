@@ -1,22 +1,5 @@
 [
   {
-    "id": "b785cd13-3f2a-4633-b009-c8dcafa44b8d",
-    "title": "[갤럭스/경영관리본부] 총무 담당자 모집",
-    "company": {
-      "name": "갤럭스(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "갤럭스(주)는 조직원에게 안정적인 근무 환경을 제공하며, 효율적인 총무 시스템을 갖추고 있다는 평이 있을 수 있습니다."
-    },
-    "summary": "회사 내 경영관리본부에서 총무 업무를 담당할 직원을 모집합니다. 사무실 관리, 비품 구매 등을 수행합니다.",
-    "role": "총무 담당자",
-    "period": "상시 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52833195&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=210fa6d5-d562-4e9d-b771-55054a738d98",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
-  },
-  {
     "id": "87c600f9-2ace-463b-b491-7cf9ad983f6a",
     "title": "항체 신약 R&D 연구원 (석사급)",
     "company": {
@@ -34,23 +17,6 @@
     "status": "분류 대기 중"
   },
   {
-    "id": "1a5f538e-f7d5-446a-8ee9-fff3afe3a348",
-    "title": "[대웅제약 계열사] 항체 연구원(팀원,팀장)  및 전략기획 채용",
-    "company": {
-      "name": "(주)아피셀테라퓨틱스",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "(주)아피셀테라퓨틱스는 대웅제약의 계열사로, 항체 연구 분야에서 안정적인 지원과 성장을 기대할 수 있는 회사라는 평이 있을 수 있습니다."
-    },
-    "summary": "대웅제약 계열사에서 항체 연구원(팀원/팀장급)과 전략기획 담당자를 모집합니다. 항체 관련 연구 및 회사 전략 수립 업무를 담당합니다.",
-    "role": "항체 연구원 (팀원/팀장) 및 전략기획",
-    "period": "2026-03-13",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53019189&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=210fa6d5-d562-4e9d-b771-55054a738d98",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
-  },
-  {
     "id": "906bad9f-204f-41a2-bcfe-5fdb15067d95",
     "title": "[정규직/경력] 신약전략본부 바이오,항체의약품 개발 기획",
     "company": {
@@ -66,40 +32,6 @@
     "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53172064&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=210fa6d5-d562-4e9d-b771-55054a738d98",
     "postedDate": "2026-03-06",
     "status": "분류 대기 중"
-  },
-  {
-    "id": "81b01d30-493b-456b-be12-81209b12337a",
-    "title": "항체 신약 R&D 연구원 (박사급)",
-    "company": {
-      "name": "메디맵바이오(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "메디맵바이오(주)는 항체 신약 분야의 선도적인 연구를 지향하며, 박사급 연구원들에게 전문성을 발휘하고 혁신을 이끌 기회를 제공한다는 평이 있을 수 있습니다."
-    },
-    "summary": "항체 신약 연구개발 분야에서 박사 학위 소지자를 대상으로 연구원을 채용합니다. 첨단 신약 개발을 위한 심도 있는 연구를 수행합니다.",
-    "role": "항체 신약 R&D 연구원 (박사급)",
-    "period": "2026-03-24",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53144031&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=210fa6d5-d562-4e9d-b771-55054a738d98",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
-  },
-  {
-    "id": "e5810630-d283-4a1b-9dfa-fcb52a74db7a",
-    "title": "상트네어바이오사이언스(주) 연구원 모집(항체분야)",
-    "company": {
-      "name": "상트네어바이오사이언스(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "상트네어바이오사이언스(주)는 항체 분야 전문성을 가진 바이오 회사로, 연구원들에게 혁신적인 프로젝트에 참여할 기회를 제공한다는 평이 있을 수 있습니다."
-    },
-    "summary": "항체 분야의 연구원을 모집합니다. 항체 관련 실험 및 연구 개발 업무를 수행하게 됩니다.",
-    "role": "항체분야 연구원",
-    "period": "2026-03-06",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53108229&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=210fa6d5-d562-4e9d-b771-55054a738d98",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
   },
   {
     "id": "2e7490f5-520f-451c-ab40-f011cb3bfa6d",
@@ -170,23 +102,6 @@
     "status": "분류 대기 중"
   },
   {
-    "id": "69d5b0e7-06af-4933-a216-924882a49ca8",
-    "title": "동물용 의료기기(동물질병 진단키트)생산 관리 및 정규직모집",
-    "company": {
-      "name": "베트올(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "동물용 의료기기 및 진단키트 분야에서 성장 가능성이 높은 회사입니다."
-    },
-    "summary": "동물용 의료기기 및 동물질병 진단키트의 생산 관리 업무를 담당할 정규직 직원을 모집합니다.",
-    "role": "생산 관리 (Production Management)",
-    "period": "2026-03-21",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52869233&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=56b643ff-b935-43bf-ab7c-7763fa94af30",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
-  },
-  {
     "id": "30fb0517-a05d-493b-b93d-cfe7f5521a78",
     "title": "면역진단, 면역분석 연구원(석사신입)",
     "company": {
@@ -221,57 +136,6 @@
     "status": "분류 대기 중"
   },
   {
-    "id": "355548e0-3dd5-44b6-aee7-452db2abbc27",
-    "title": "(주)베이직사이언스 관리부 모집",
-    "company": {
-      "name": "(주)베이직사이언스",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "과학 실험 장비 및 시약 유통 분야의 경험을 쌓을 수 있는 회사입니다."
-    },
-    "summary": "(주)베이직사이언스에서 관리부 직원을 모집합니다.",
-    "role": "관리부 (Management Department Staff)",
-    "period": "2026-03-29",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53194188&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=56b643ff-b935-43bf-ab7c-7763fa94af30",
-    "postedDate": "2026-03-06",
-    "status": "Trash"
-  },
-  {
-    "id": "90f14696-15aa-49ed-a797-bc9f2986261f",
-    "title": "항체 신약 R&D 연구원 (박사급)",
-    "company": {
-      "name": "메디맵바이오(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "메디맵바이오(주)는 신약 개발 분야에서 성장 가능성이 높습니다."
-    },
-    "summary": "메디맵바이오에서 항체 신약 R&D 연구 분야 박사급 인력을 모집합니다.",
-    "role": "R&D 연구원 (박사급)",
-    "period": "2026-03-24",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53144031&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "ee2e1b60-a1f0-4e10-9684-900e3dbf6e37",
-    "title": "항체 신약 R&D 연구원 (석사급)",
-    "company": {
-      "name": "메디맵바이오(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "메디맵바이오(주)는 신약 개발 분야에서 성장 가능성이 높습니다."
-    },
-    "summary": "메디맵바이오에서 항체 신약 R&D 연구 분야 석사급 인력을 모집합니다.",
-    "role": "R&D 연구원 (석사급)",
-    "period": "2026-03-24",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53143991&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
     "id": "6db2cd52-4509-4397-8234-9f733f770392",
     "title": "[대웅제약 계열사] 항체 연구원(팀원,팀장)  및 전략기획 채용",
     "company": {
@@ -289,108 +153,6 @@
     "status": "Tracking"
   },
   {
-    "id": "739b5aaf-2cd1-492e-a1e8-2f263014e567",
-    "title": "[정규직/경력] 신약전략본부 바이오,항체의약품 개발 기획",
-    "company": {
-      "name": "(주)바이오노트",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "(주)바이오노트는 신약 개발 및 바이오 분야에서 혁신적인 역할을 수행하고 있습니다."
-    },
-    "summary": "(주)바이오노트 신약전략본부에서 바이오 및 항체의약품 개발 기획 경력직을 정규직으로 모집합니다.",
-    "role": "바이오/항체의약품 개발 기획",
-    "period": "2026-03-15",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53172064&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "078c5ee2-41ee-4676-abf1-95e65deb6603",
-    "title": "상트네어바이오사이언스(주) 연구원 모집(항체분야)",
-    "company": {
-      "name": "상트네어바이오사이언스(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "상트네어바이오사이언스(주)는 생명과학 분야에서 전문적인 연구 환경을 제공합니다."
-    },
-    "summary": "상트네어바이오사이언스(주)에서 항체 분야 연구원을 모집합니다.",
-    "role": "연구원 (항체분야)",
-    "period": "2026-03-06",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53108229&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "e1ac088d-9966-4f97-a31f-dd2a793711ed",
-    "title": "[유명바이오회사 / 상장추진중]항체 스크리닝 연구원",
-    "company": {
-      "name": "(주)린인파트너스",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "해당 없음"
-    },
-    "summary": "유명 바이오 회사에서 상장 추진 중인 항체 스크리닝 연구원을 모집합니다.",
-    "role": "항체 스크리닝 연구원",
-    "period": "상시 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53197214&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "11cd520e-1167-4a6f-93d5-10103a21bbf6",
-    "title": "중견기업 항암제,항체 연구개발 신입,대리,과장급 구함(굿커리어",
-    "company": {
-      "name": "굿커리어",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "해당 없음"
-    },
-    "summary": "중견기업에서 항암제 및 항체 연구개발 분야 신입, 대리, 과장급 인력을 채용합니다.",
-    "role": "항암제/항체 연구개발 (신입, 대리, 과장급)",
-    "period": "2026-03-11",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53164871&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "6a6bc933-2ffe-460f-ad01-f1ca1c6df6e2",
-    "title": "유망바이오(면역항암항체) Discovery 담당(수석급~ )",
-    "company": {
-      "name": "(주)스카우트",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "해당 없음"
-    },
-    "summary": "유망 바이오 기업에서 면역항암항체 Discovery 분야 수석급 이상 담당자를 모집합니다.",
-    "role": "면역항암항체 Discovery 담당 (수석급)",
-    "period": "2026-03-05",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53102948&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "08d131ef-75d0-4cfd-8f16-cdf2c8a6b42d",
-    "title": "유망바이오(상위제약계열) 항체 Discovery 팀장급",
-    "company": {
-      "name": "(주)스카우트",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "해당 없음"
-    },
-    "summary": "상위 제약 계열 유망 바이오 기업에서 항체 Discovery 팀장급 인력을 채용합니다.",
-    "role": "항체 Discovery 팀장급",
-    "period": "2026-03-10",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53139510&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=2e3f254d-f976-4aff-a3e6-67cfc68c940b",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
     "id": "4043f019-3700-40b1-acb8-a5faea4f03ab",
     "title": "[정규직/경력] 2월_바이오 신약전략본부 인재채용",
     "company": {
@@ -406,56 +168,5 @@
     "link": "https://www.catch.co.kr/NCS/RecruitInfoDetails/541033?ReturnUrl=RecruitInfo",
     "postedDate": "2026-03-05",
     "status": "분류 대기 중"
-  },
-  {
-    "id": "b01e50d6-8f07-49b4-82e1-a19417f34ccd",
-    "title": "동물용 의료기기(동물질병 진단키트)생산 관리 및 정규직모집",
-    "company": {
-      "name": "베트올(주)",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "동물용 진단키트 및 의료기기 전문 기업으로, 반려동물 시장 성장에 따른 안정적인 사업 기반을 가질 것으로 예상됩니다."
-    },
-    "summary": "동물질병 진단키트 등 동물용 의료기기 생산 관리 업무를 담당할 정규직 직원을 모집합니다.",
-    "role": "동물용 의료기기 생산 관리",
-    "period": "2026-03-21",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52869233&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=dcf6fc3b-c6ce-4fc2-aeae-9b7d51c49d25",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "95bdee5f-6ec7-4594-9c82-0c0e622c27a3",
-    "title": "바이오칩 연구분석,연구개발(석사신입)",
-    "company": {
-      "name": "(주)브레디스헬스케어",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "바이오칩 기술 기반의 헬스케어 기업으로, 혁신적인 진단 기술 개발에 기여할 수 있는 환경일 것입니다."
-    },
-    "summary": "바이오칩 분야의 연구 분석 및 연구 개발 업무를 수행할 석사 신입 연구원을 채용합니다.",
-    "role": "바이오칩 연구분석, 연구개발",
-    "period": "2026-03-26",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53161267&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=dcf6fc3b-c6ce-4fc2-aeae-9b7d51c49d25",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
-  },
-  {
-    "id": "0f134b50-eaaa-483d-9366-6f0445a53ffc",
-    "title": "면역진단, 면역분석 연구원(석사신입)",
-    "company": {
-      "name": "(주)브레디스헬스케어",
-      "location": "미상",
-      "employeeCount": "미상",
-      "startingSalary": "회사 내규에 따름",
-      "reviews": "(주)브레디스헬스케어는 면역진단 및 헬스케어 분야에서 성장 가능성이 높은 기업으로, 전문 연구 인력에게 좋은 기회가 될 수 있습니다."
-    },
-    "summary": "면역진단 및 면역분석 관련 연구 업무를 담당할 석사 신입 연구원을 모집합니다.",
-    "role": "면역진단, 면역분석 연구원",
-    "period": "2026-03-26",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53161290&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=dcf6fc3b-c6ce-4fc2-aeae-9b7d51c49d25",
-    "postedDate": "2026-03-05",
-    "status": "Trash"
   }
 ]
