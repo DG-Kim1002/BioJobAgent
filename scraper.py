@@ -1,8 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
 import urllib.parse
+from urllib.parse import urlparse, parse_qs
 import time
 import random
+import re
+
+def get_unique_job_key(title, company_name):
+    """
+    Extracts a unique identifier based on the job title and company name.
+    This effectively deduplicates postings that are:
+    1. Re-uploaded by the company to bump search rankings (changing the URL/ID).
+    2. Posted across multiple different platforms (Saramin vs JobKorea).
+    """
+    # Normalize by stripping whitespace and converting to lowercase for robustness
+    safe_title = str(title).strip().lower()
+    safe_company = str(company_name).strip().lower()
+    return f"{safe_company}:::{safe_title}"
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -146,7 +160,7 @@ def run_full_scraping():
         all_results.extend(catch_results)
         time.sleep(1)
         
-    unique_links = set()
+    unique_keys = set()
     must_include_keywords = ["항체", "진단키트"]
     excluded_keywords = [
         "상무", "임상", "인턴", "UI/UX", "해외 사업", "해외영업",
@@ -161,9 +175,10 @@ def run_full_scraping():
             has_excluded_keyword = any(ex in item["title"] or ex in item["companyName"] for ex in excluded_keywords)
             if has_excluded_keyword: continue
             
-        if item["link"] in unique_links: continue
+        uid = get_unique_job_key(item["title"], item["companyName"])
+        if uid in unique_keys: continue
         
-        unique_links.add(item["link"])
+        unique_keys.add(uid)
         filtered_results.append(item)
         
     return filtered_results

@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Import our custom modules
-from scraper import run_full_scraping
+from scraper import run_full_scraping, get_unique_job_key
 from gemini import analyze_job_postings_batch
 from github_db import load_jobs_from_github as load_jobs, save_jobs_to_github as save_jobs
 
@@ -52,6 +52,20 @@ def main():
     # Make sure every job has a status and migrate legacy
     changes_made_startup = False
     today = date.today()
+    
+    # 1) Runtime Deduplication immediately on startup
+    deduped_jobs = []
+    seen_keys = set()
+    for job in st.session_state.jobs:
+        uid = get_unique_job_key(job.get("title", ""), job.get("company", {}).get("name", ""))
+        if uid in seen_keys:
+            changes_made_startup = True
+            continue
+        seen_keys.add(uid)
+        deduped_jobs.append(job)
+        
+    st.session_state.jobs = deduped_jobs
+
     for job in st.session_state.jobs:
         if job.get("status") == "tracking":
             job["status"] = "Tracking"
@@ -59,7 +73,7 @@ def main():
         elif job.get("status") == "trash":
             job["status"] = "Trash"
             changes_made_startup = True
-        elif "status" not in job or job.get("status") not in ["Tracking", "Trash", "분류 대기 중"]:
+        elif "status" not in job or job.get("status") not in ["Tracking", "Trash", "auto_trash", "분류 대기 중"]:
             job["status"] = "분류 대기 중"
             changes_made_startup = True
             
@@ -85,7 +99,7 @@ def main():
         get_dday_sort_value(j.get("period", ""))
     ))
     
-    trashed_jobs = [j for j in st.session_state.jobs if j.get("status") == "Trash"]
+    trashed_jobs = [j for j in st.session_state.jobs if j.get("status") in ("Trash", "auto_trash")]
 
     # --- Sidebar ---
     with st.sidebar:
@@ -96,8 +110,9 @@ def main():
                 raw_scraping_results = run_full_scraping()
             
             # 1. API에 보내기 전, 이미 Tracking/Trash에 있는 공고(중복) 필터링
-            existing_links = {j.get("link"): True for j in st.session_state.jobs}
-            new_scraping_results = [r for r in raw_scraping_results if r.get("link") not in existing_links]
+            # 제목과 회사명을 조합한 고유 키를 사용하여 재공고/타 플랫폼 중복 완벽 차단
+            existing_keys = {get_unique_job_key(j.get("title", ""), j.get("company", {}).get("name", "")): True for j in st.session_state.jobs}
+            new_scraping_results = [r for r in raw_scraping_results if get_unique_job_key(r.get("title", ""), r.get("companyName", "")) not in existing_keys]
             
             if not new_scraping_results:
                 st.warning("All scraped jobs are already in your list. No new jobs to analyze.")
@@ -118,7 +133,7 @@ def main():
                             
                 if new_jobs:
                     # new_jobs에는 이미 중복이 제거된 데이터만 들어옴
-                    st.success(f"Added {len(new_jobs)} new relevant jobs!")
+                    st.success(f"Processed {len(new_jobs)} new jobs (including auto-trashed)!")
                     st.session_state.jobs = new_jobs + st.session_state.jobs
                     save_jobs(st.session_state.jobs)
                     st.rerun()
@@ -131,7 +146,7 @@ def main():
         
         if trashed_jobs:
             if st.button("🗑️ Empty Trash"):
-                st.session_state.jobs = [j for j in st.session_state.jobs if j.get("status") != "Trash"]
+                st.session_state.jobs = [j for j in st.session_state.jobs if j.get("status") not in ("Trash", "auto_trash")]
                 save_jobs(st.session_state.jobs)
                 st.rerun()
                 
@@ -211,9 +226,9 @@ def main():
                         "_id": None, 
                         "Status": st.column_config.SelectboxColumn(
                             "Status",
-                            help="상태를 변경하여 Tracking/Trash/분류 대기 중을 전환합니다.",
+                            help="상태를 변경하여 Tracking/Trash/auto_trash/분류 대기 중을 전환합니다.",
                             width="small",
-                            options=["Tracking", "분류 대기 중", "Trash"],
+                            options=["Tracking", "분류 대기 중", "Trash", "auto_trash"],
                             required=True,
                         ),
                         "🏢 Company": st.column_config.TextColumn("Company", disabled=True),
@@ -281,7 +296,7 @@ def main():
                     "Status": st.column_config.SelectboxColumn(
                         "Status",
                         help="Restore job",
-                        options=["Tracking", "분류 대기 중", "Trash"],
+                        options=["Tracking", "분류 대기 중", "Trash", "auto_trash"],
                         required=True,
                     ),
                     "🏢 Company": st.column_config.TextColumn("Company", disabled=True),

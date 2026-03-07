@@ -59,18 +59,26 @@ The output MUST be a valid JSON array of objects. Do not include markdown format
 
         parsed_data_batch = json.loads(output_text)
         valid_jobs = []
+        seen_indices = set()
 
         for parsed_data in parsed_data_batch:
             original_index = parsed_data.get("jobId")
             if not isinstance(original_index, int) or original_index < 0 or original_index >= len(scraping_data_batch):
                 print(f"Unknown or missing jobId from Gemini response: {parsed_data}")
                 continue
+                
+            if original_index in seen_indices:
+                print(f"Duplicate jobId {original_index} found in Gemini response, skipping.")
+                continue
+            seen_indices.add(original_index)
 
             scraping_data = scraping_data_batch[original_index]
 
             if parsed_data.get("isRelevant") is False:
-                print(f"Skipping irrelevant job (ID: {original_index}): {scraping_data.get('title')} at {scraping_data.get('companyName')}")
-                continue
+                print(f"Auto-trashing irrelevant job (ID: {original_index}): {scraping_data.get('title')} at {scraping_data.get('companyName')}")
+                status = "auto_trash"
+            else:
+                status = "분류 대기 중"
 
             job = {
                 "id": str(uuid.uuid4()),
@@ -87,7 +95,7 @@ The output MUST be a valid JSON array of objects. Do not include markdown format
                 "period": parsed_data.get("period") or "상시 채용",
                 "link": scraping_data.get("link"),
                 "postedDate": today,
-                "status": "분류 대기 중"
+                "status": status
             }
             valid_jobs.append(job)
 
