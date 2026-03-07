@@ -1,5 +1,39 @@
 [
   {
+    "id": "1adf7089-7ebe-444d-9751-35b4d0ca6f4f",
+    "title": "[외국계 발전설비기업] 2026년 엔지니어 채용 (신입/상시채용)",
+    "company": {
+      "name": "엠피더블유코리아(주)",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "해당 없음"
+    },
+    "summary": "외국계 발전설비 기업에서 2026년 엔지니어를 신입으로 상시 채용하는 공고입니다. 발전설비 관련 엔지니어링 업무를 수행하게 됩니다.",
+    "role": "엔지니어",
+    "period": "2026-03-11",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53045036&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=e9232551-afc4-4925-83b8-83bbdaea3851",
+    "postedDate": "2026-03-08",
+    "status": "auto_trash"
+  },
+  {
+    "id": "4f92de94-80a4-4d82-87f1-82182733e958",
+    "title": "이큐브랩(Haulla) Global Operations Intern (신입)",
+    "company": {
+      "name": "(주)이큐브랩",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "해당 없음"
+    },
+    "summary": "(주)이큐브랩에서 Haulla 플랫폼의 글로벌 운영을 담당할 신입 인턴을 채용합니다. 전반적인 운영 및 지원 업무를 수행할 것으로 예상됩니다.",
+    "role": "Global Operations Intern (글로벌 운영 인턴)",
+    "period": "2026-03-13",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53157443&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=e9232551-afc4-4925-83b8-83bbdaea3851",
+    "postedDate": "2026-03-08",
+    "status": "auto_trash"
+  },
+  {
     "id": "504e5f07-bfa7-433e-8fb5-61ad487a3ced",
     "title": "항체 신약 R&D 연구원 (석사급)",
     "company": {
