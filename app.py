@@ -12,7 +12,12 @@ load_dotenv()
 # Import our custom modules
 from scraper import run_full_scraping, get_unique_job_key
 from gemini import analyze_job_postings_batch
-from github_db import load_jobs_from_github as load_jobs, save_jobs_to_github as save_jobs
+from github_db import (
+    load_jobs_from_github as load_jobs, 
+    save_jobs_to_github as save_jobs,
+    load_metadata_from_github as load_metadata,
+    save_metadata_to_github as save_metadata
+)
 
 st.set_page_config(page_title="BioJob Agent", page_icon="🧬", layout="wide")
 
@@ -48,6 +53,9 @@ def main():
 
     if "jobs" not in st.session_state:
         st.session_state.jobs = load_jobs()
+        
+    if "metadata" not in st.session_state:
+        st.session_state.metadata = load_metadata()
 
     # Make sure every job has a status and migrate legacy
     changes_made_startup = False
@@ -105,6 +113,10 @@ def main():
     with st.sidebar:
         st.header("🛠️ Controls")
         
+        last_scraped = st.session_state.metadata.get("last_scraped", "기록 없음")
+        st.write(f"🕒 마지막 수집: **{last_scraped}**")
+        st.divider()
+        
         if st.button("🚀 Run Scraper", use_container_width=True, type="primary"):
             with st.spinner("Scraping Saramin, JobKorea, and Catch..."):
                 raw_scraping_results = run_full_scraping()
@@ -136,9 +148,17 @@ def main():
                     st.success(f"Processed {len(new_jobs)} new jobs (including auto-trashed)!")
                     st.session_state.jobs = new_jobs + st.session_state.jobs
                     save_jobs(st.session_state.jobs)
+                    
+                    # Update metadata with current time
+                    st.session_state.metadata["last_scraped"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    save_metadata(st.session_state.metadata)
                     st.rerun()
                 else:
                     st.warning("No new relevant jobs found after AI filtering.")
+                    # Even if no new jobs, the scraping itself was successful
+                    st.session_state.metadata["last_scraped"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    save_metadata(st.session_state.metadata)
+                    st.rerun()
                 
         st.divider()
         st.write(f"Active Jobs: **{len(active_jobs)}**")
