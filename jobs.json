@@ -184,7 +184,7 @@
     "period": "2026-03-15",
     "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53172064&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=40ee0dd4-2f45-4ff6-ae05-db79cfa82575",
     "postedDate": "2026-03-07",
-    "status": "분류 대기 중"
+    "status": "Trash"
   },
   {
     "id": "944401a3-b443-49e8-ad2e-19ee08121d3d",
@@ -439,6 +439,6 @@
     "period": "2026-03-15",
     "link": "https://www.catch.co.kr/NCS/RecruitInfoDetails/541033?ReturnUrl=RecruitInfo",
     "postedDate": "2026-03-05",
-    "status": "분류 대기 중"
+    "status": "Trash"
   }
 ]
