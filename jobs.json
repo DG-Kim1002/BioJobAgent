@@ -1,5 +1,39 @@
 [
   {
+    "id": "dabb3d3f-a299-47a6-82e5-e92b7ee0261c",
+    "title": "2026년 상반기 신입사원 공개채용(배양)",
+    "company": {
+      "name": "(주)이수앱지스",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "바이오 산업의 성장에 기여하며, 연구 개발 기회가 많습니다."
+    },
+    "summary": "2026년 상반기 신입사원을 공개 채용하며, 배양 관련 업무를 담당합니다.",
+    "role": "신입사원 (배양)",
+    "period": "2026-04-14",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53444798&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=e48c2dae-4743-4716-b276-17f460a61ac1",
+    "postedDate": "2026-03-26",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "ab17fc0a-4a41-435c-ba91-13eaec2f2657",
+    "title": "항체개발팀 팀장/파트장 모집",
+    "company": {
+      "name": "(주)에디스바이오텍",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "혁신적인 항체 개발에 참여하며, 연구 중심의 기업 문화를 가지고 있습니다."
+    },
+    "summary": "항체개발팀의 팀장 또는 파트장을 모집하며, 항체 개발 전반을 이끌 리더를 찾습니다.",
+    "role": "항체개발팀 팀장/파트장",
+    "period": "2026-04-12",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53445636&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=e48c2dae-4743-4716-b276-17f460a61ac1",
+    "postedDate": "2026-03-26",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "919b5e2f-ef34-401e-9c1e-beec4e3cee42",
     "title": "항체신약 TCE 비임상연구원",
     "company": {
