@@ -1,5 +1,73 @@
 [
   {
+    "id": "05396eec-38d9-4209-8a85-335e68937b94",
+    "title": "(주)프로앱텍 서울 중앙연구소 항체-신약개발 부문 채용",
+    "company": {
+      "name": "(주)프로앱텍",
+      "location": "서울",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "혁신적인 항체 신약 개발을 주도하는 연구 중심의 바이오 회사"
+    },
+    "summary": "(주)프로앱텍 서울 중앙연구소에서 항체 신약 개발 부문의 인력을 채용하는 공고입니다. 이 직무는 항체 기반 신약 연구 및 개발을 담당합니다.",
+    "role": "항체-신약개발",
+    "period": "2026-04-29",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53477206&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=82bee7f7-e839-4e39-8be1-e32b46e904ed",
+    "postedDate": "2026-03-30",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "4d69c30d-a398-4e6c-b69c-7df7e882e12f",
+    "title": "유망 바이오 벤처- 항체신약 약효평가(팀장/팀원)",
+    "company": {
+      "name": "(주)스카우트",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "혁신적인 항체 신약 연구를 통해 빠르게 성장하는 유망 바이오 벤처"
+    },
+    "summary": "유망 바이오 벤처에서 항체 신약의 약효를 평가하는 팀장 또는 팀원을 모집하는 공고입니다. 이 포지션은 신약 개발 과정에서 핵심적인 약효 검증 업무를 수행합니다.",
+    "role": "항체신약 약효평가 (팀장/팀원)",
+    "period": "2026-04-14",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53472741&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=82bee7f7-e839-4e39-8be1-e32b46e904ed",
+    "postedDate": "2026-03-30",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "d8ac3a88-8444-4f05-952e-2ef1b1f4da37",
+    "title": "유망 바이오 벤처-항체신약 공정개발(과/차장)",
+    "company": {
+      "name": "(주)스카우트",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "항체 신약 공정 기술 혁신을 추구하며 성장하는 유망 바이오 벤처"
+    },
+    "summary": "유망 바이오 벤처에서 항체 신약의 공정 개발을 담당할 과장 또는 차장급 인력을 모집하는 공고입니다. 이 직무는 항체 신약의 생산 공정을 설계하고 최적화하는 역할을 수행합니다.",
+    "role": "항체신약 공정개발 (과/차장)",
+    "period": "2026-04-14",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53472855&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=82bee7f7-e839-4e39-8be1-e32b46e904ed",
+    "postedDate": "2026-03-30",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "e19f9013-f0bb-47d5-a0ea-dd10bf16f38b",
+    "title": "유망바이오상장사 ADC/치료용항체/다중항체개발 팀장급",
+    "company": {
+      "name": "(주)이노서치",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "혁신적인 항체 기반 치료제 개발에 앞장서는 선도적인 바이오 상장사"
+    },
+    "summary": "유망 바이오 상장사에서 ADC, 치료용 항체, 다중 항체 개발을 담당할 팀장급 인력을 채용하는 공고입니다. 이 역할은 첨단 항체 치료제 개발 프로젝트를 이끌게 됩니다.",
+    "role": "ADC/치료용항체/다중항체개발 (팀장급)",
+    "period": "상시 채용",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53469250&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=82bee7f7-e839-4e39-8be1-e32b46e904ed",
+    "postedDate": "2026-03-30",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "1b919d0c-fc99-45c1-89a4-153ad7de51fa",
     "title": "항체신약개발 연구원(리더~임원급1명/박사급 JR.연구원1명)",
     "company": {
