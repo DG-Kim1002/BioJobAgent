@@ -1,5 +1,22 @@
 [
   {
+    "id": "a106116f-8584-4bff-a82e-3ae0a77ac91e",
+    "title": "[의료기기]  생산본부 생산기술 채용",
+    "company": {
+      "name": "(주)프로티아",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "의료기기 개발 및 생산에 기여하는 회사로, 기술력과 성장이 기대됩니다."
+    },
+    "summary": "의료기기 생산본부의 생산기술 담당자를 채용하는 공고입니다. 생산 공정 개선 및 관리 업무를 수행합니다.",
+    "role": "생산기술 (Production Technology)",
+    "period": "2026-04-19",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53527612&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=361f6a99-8120-4832-a0dc-387cbcb621ca",
+    "postedDate": "2026-04-04",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "05396eec-38d9-4209-8a85-335e68937b94",
     "title": "(주)프로앱텍 서울 중앙연구소 항체-신약개발 부문 채용",
     "company": {
