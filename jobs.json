@@ -1,5 +1,73 @@
 [
   {
+    "id": "961135dd-3382-4e3f-801e-bee646a6e32b",
+    "title": "항체 신약 R&D 연구원",
+    "company": {
+      "name": "메디맵바이오(주)",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "항체 신약 개발에 특화된 바이오 회사로, 혁신적인 신약 개발에 기여할 수 있는 기회를 제공합니다."
+    },
+    "summary": "항체 신약 개발을 위한 R&D 연구 업무를 수행합니다. 신약 후보 물질 발굴 및 관련 실험을 담당합니다.",
+    "role": "R&D 연구원 (항체 신약)",
+    "period": "2026-05-16",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53654225&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=efc5d43f-dc81-4d31-b142-0b88995c41de",
+    "postedDate": "2026-04-21",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "974560a5-0067-4bfc-b04b-5842e17ab5ce",
+    "title": "[티움바이오] 항체신약팀 연구원(경력 5년 이상)",
+    "company": {
+      "name": "(주)티움바이오",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)티움바이오는 바이오 신약 개발을 선도하는 기업으로, 항체 신약 분야의 전문성을 바탕으로 성장하고 있습니다."
+    },
+    "summary": "항체신약팀에서 경력 5년 이상의 연구원을 모집합니다. 항체 신약 관련 연구 및 개발 업무를 담당하게 됩니다.",
+    "role": "항체신약팀 연구원 (경력)",
+    "period": "2026-05-17",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53655176&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=efc5d43f-dc81-4d31-b142-0b88995c41de",
+    "postedDate": "2026-04-21",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "6c59823d-7606-4c4b-ae0a-48e18c0b18c9",
+    "title": "온톨로지 기반 AI (sLLM) 항체개발 시스템 백엔드",
+    "company": {
+      "name": "(주)데이터랩스",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)데이터랩스는 AI와 바이오 분야의 융합을 통해 항체 개발 시스템을 구축하는 혁신적인 회사입니다."
+    },
+    "summary": "온톨로지 기반 AI (sLLM)를 활용한 항체개발 시스템의 백엔드 개발 및 운영을 담당합니다. 바이오-IT 융합 분야에서 시스템 구축에 기여합니다.",
+    "role": "백엔드 개발자 (항체개발 AI 시스템)",
+    "period": "2026-05-16",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53645877&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=efc5d43f-dc81-4d31-b142-0b88995c41de",
+    "postedDate": "2026-04-21",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "9fb3ac48-c58f-4fe3-bee4-6bcae289828b",
+    "title": "2026년 제2차 위촉직 채용",
+    "company": {
+      "name": "오송첨단의료산업진흥재단",
+      "location": "충북 오송",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "국가 의료 산업 발전에 기여하는 공공기관으로, 안정적인 근무 환경과 사명감을 느낄 수 있습니다."
+    },
+    "summary": "오송첨단의료산업진흥재단에서 2026년 제2차 위촉직 직원을 채용합니다. 재단의 운영 및 연구 지원 업무를 수행하게 됩니다.",
+    "role": "위촉직 (다양한 직무 가능성)",
+    "period": "2026-04-24",
+    "link": "https://www.catch.co.kr/NCS/RecruitInfoDetails/548017?ReturnUrl=RecruitInfo",
+    "postedDate": "2026-04-21",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "5225d3d0-a983-4442-bcb4-ec34b60bb494",
     "title": "에이더바이오(주)에서 세포배양·단백질 분석 연구원으로 함께해요",
     "company": {
