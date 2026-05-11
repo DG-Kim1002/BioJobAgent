@@ -1,5 +1,73 @@
 [
   {
+    "id": "c1b799a1-0a6b-4b15-bc02-ed0b70eeebdf",
+    "title": "[인투앱/YNTOAB] 항체, 항원 개발 연구원 모집",
+    "company": {
+      "name": "(주)인투앱",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)인투앱은 항체, 항원 개발 분야에서 혁신적인 연구를 진행하는 회사로, 연구원들에게 좋은 성장 기회를 제공할 것입니다."
+    },
+    "summary": "항체 및 항원 개발을 위한 연구 업무를 수행할 연구원을 모집합니다.",
+    "role": "항체, 항원 개발 연구원",
+    "period": "2026-06-10",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53849959&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=03ca59f7-b5ae-4cd4-a579-00563be17337",
+    "postedDate": "2026-05-11",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "677e8bc7-896e-4122-a038-1be308cf0b03",
+    "title": "[업계 우대 / 유명바이오회사]  항체 연구",
+    "company": {
+      "name": "(주)린인파트너스",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)린인파트너스는 유명 바이오회사의 채용을 대행하는 곳으로, 혁신적인 바이오 연구 환경에서 경력을 쌓을 수 있는 기회를 제공할 것입니다."
+    },
+    "summary": "유명 바이오회사에서 항체 연구를 담당할 인재를 모집합니다.",
+    "role": "항체 연구원",
+    "period": "상시 채용",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53784573&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=03ca59f7-b5ae-4cd4-a579-00563be17337",
+    "postedDate": "2026-05-11",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "d3bff4fb-9f8c-48bd-a5d8-8e1804e53530",
+    "title": "--[신약개발기업]- R&D 박사 (차~부장급)-단백질/항체/ADC 신약-",
+    "company": {
+      "name": "(주)에이치알그룹",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)에이치알그룹은 신약 개발 분야의 우수 인재를 연결하는 헤드헌팅 회사로, 역량 있는 박사급 연구원들에게 좋은 기회를 제공할 것입니다."
+    },
+    "summary": "신약개발기업에서 단백질, 항체, ADC 신약 개발 분야의 R&D 박사 (차장~부장급)를 모집합니다.",
+    "role": "R&D 박사 (단백질/항체/ADC 신약)",
+    "period": "상시 채용",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53744149&location=ts&searchword=%ED%95%AD%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=03ca59f7-b5ae-4cd4-a579-00563be17337",
+    "postedDate": "2026-05-11",
+    "status": "분류 대기 중"
+  },
+  {
+    "id": "6c2bc263-94b5-47c5-b35d-605c8f8e0141",
+    "title": "[정규직]  2026 코드벡터 취약점진단 신입사원 채용",
+    "company": {
+      "name": "(주)코드벡터",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "(주)코드벡터는 IT 보안 분야에서 취약점 진단 서비스를 제공하는 기업으로, 신입사원에게 체계적인 교육과 성장 기회를 제공할 것입니다."
+    },
+    "summary": "(주)코드벡터에서 2026년 신입사원을 대상으로 취약점 진단 업무를 수행할 인재를 채용합니다.",
+    "role": "취약점진단 신입사원",
+    "period": "2026-05-31",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53818086&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=c24c7627-be71-4d0d-a170-e3363646bfd7",
+    "postedDate": "2026-05-11",
+    "status": "auto_trash"
+  },
+  {
     "id": "66b661c7-6162-4572-9fc7-9214b6c61ada",
     "title": "[정규직]  2025 코드벡터 취약점진단 신입/경력 채용",
     "company": {
