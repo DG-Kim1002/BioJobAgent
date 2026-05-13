@@ -1,5 +1,22 @@
 [
   {
+    "id": "13a181f0-4570-402b-878c-91de75011cff",
+    "title": "[플로트바이오]진단키트 개발 연구원",
+    "company": {
+      "name": "플로트바이오",
+      "location": "미상",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "새로운 진단 기술 개발에 참여하여 성장할 수 있는 회사입니다."
+    },
+    "summary": "진단키트 개발 및 관련 연구를 수행하는 역할입니다.",
+    "role": "진단키트 개발 연구원",
+    "period": "상시 채용",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53831046&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=6c5c3fef-1c62-45d8-aa05-182d96f16113",
+    "postedDate": "2026-05-13",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "e7e92df9-aebd-4dd3-942e-49309d278938",
     "title": "유망바이오 나노바디 항체사업화/면역학/연구개발/IND/개발전략",
     "company": {
