@@ -1,5 +1,22 @@
 [
   {
+    "id": "0f9ecd6f-1434-4e01-8331-cec241aa40a2",
+    "title": "[삼광랩트리] 2026년 영업 계약직 수시채용 (인천3지점)",
+    "company": {
+      "name": "(주)삼광랩트리",
+      "location": "인천",
+      "employeeCount": "미상",
+      "startingSalary": "회사 내규에 따름",
+      "reviews": "진단키트 분야에서 혁신적인 제품을 개발하며 성장하는 회사로, 영업 직무는 시장 확장에 중요한 역할을 합니다."
+    },
+    "summary": "2026년까지 인천 3지점에서 영업 계약직을 수시 채용하는 공고입니다.",
+    "role": "영업 계약직",
+    "period": "2026-07-01",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54039857&location=ts&searchword=%EC%A7%84%EB%8B%A8%ED%82%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=37534ab8-e0c0-4845-9739-548230f076ec",
+    "postedDate": "2026-06-01",
+    "status": "분류 대기 중"
+  },
+  {
     "id": "2cfafd5a-e5b6-4d04-bd84-d624f49b0feb",
     "title": "신경퇴행성질환(AD) 바이오마커 연구 및 항체기반 진단 기술개발",
     "company": {
